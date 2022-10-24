@@ -30,5 +30,5 @@ function getAverageSeasons(series: Serie[]): number {
 
   export const average = getAverageSeasons(series);
 
-  document.getElementsByTagName("h3")[0].innerHTML = average.toString();
+  document.getElementsByTagName("p")[0].innerHTML = "Average Seaons = " + average.toString();
 
